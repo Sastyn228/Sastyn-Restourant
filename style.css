@@ -1,0 +1,549 @@
+ 
+ body, html{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    
+ }
+  .container img{
+    width: 25%;
+ }
+ ul{
+    list-style-type: none;
+ }
+
+ .hol:active, .me:active, .cl:active{
+    color: wheat;
+ }
+ 
+ .navbar {
+    width: 102%;
+    height: 90px;
+    position: top;
+    top:50%;
+    background-color:#0a0a23;
+    color: #ffffff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    margin-top: -7px;
+    margin-left: -15px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    
+ }
+
+ .navbar .container{ 
+ display: flex;
+   height: inherit;
+   justify-content: space-between;
+   align-items:center;
+ }
+
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+     
+}
+
+.navbar-menu li{
+    display: inline-block;    
+    margin-right: 200px;
+    
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    color: #ffffff;
+    opacity: 0.6;
+    text-decoration:none;
+    padding: 10px;
+    margin-left: 10px;  
+    transition: all .2s ease-in-out ;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 2px rgba(255, 0, 0);
+}
+
+.navbar-menu li a:hover{
+  opacity: 1 ;
+ 
+  box-shadow: 0 9px 9px rgba(255, 0, 0, 1)  ;
+}
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap ;
+}
+
+
+
+.container2 img{
+    height: 550px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+}
+.container3 {
+    position: relative;
+    padding-top: 50px;
+}
+.text1{
+    position: absolute;
+    left: 590px;
+    top: 35px;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 30px;
+    font-family: 'Londrina Shadow', cursive;
+}
+ .pr hr{
+    width: 350px;
+    border-color: #ff0000;
+}
+.hol-str{
+    margin-top: 70px;
+    margin-left: 105px;
+    font-size: 40px;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.per-str{
+    margin-top: -795px;
+    margin-left: 555px;
+    font-size: 40px;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.Salaty{
+    margin-top: -795px;
+    margin-left: 1050px;
+    font-size: 40px;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.first, .second, .third, .first2, .second2, .third2, .first3,.second3, .third3{
+    
+    margin-left: 100px;
+    border-left: 50px;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    background-image: url("images/Тар-тар.jpg");
+}
+
+.third3{
+    background-image: url(images/Грецький.jpeg);
+    margin-left:975px;
+    top: 139px;
+}
+
+.first3{
+    top:39px;
+     margin-left: 975px;
+ background-image: url(images/Цезар.jpeg);
+}
+
+
+.first2{
+margin-left: 535px;
+top:39px;
+background-image: url(images/Борщ.webp);
+}
+
+
+.second2{
+background-image: url(images/завантаження\ \(3\).jpeg);
+margin-top: 89px;
+margin-left: 535px;
+
+}
+
+.third2{
+    background-image: url(images/Бульон.jpg);
+    margin-top: 50px;
+    margin-left: 535px;
+}
+
+
+ .first p, .second p, .third p, .first2 p, .second2 p, .third2 p, .first3 p,.second3 p, .third3 p{
+    width: 280px;
+  color: rgba(255, 255, 255,1);
+  background: black;
+   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, (0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  font-size: 25px;
+ line-height: 28px;
+ text-align: justify;
+ position: absolute;
+ bottom: 0;
+ margin: 0;
+ height: 25px;
+ transition: height .5s;
+ -webkit-transition: height .5s;
+ -moz-transition: height .5s;
+ }
+ .first p small, .second p small, .third p small, .first2 p small, .second2 p small, .third2 p small, .first3 p small, .second3 p small, .third3 p small{
+    display:none;
+}
+ small{
+    font-size: 15px;
+ }
+ .first p:hover small,
+ .second p:hover small,
+ .third p:hover small,
+ .first2 p:hover small,
+ .second2 p:hover small,
+ .third2 p:hover small,
+ .first3 p:hover small,
+ .second3 p:hover small,
+ .third3 p:hover small {
+    display: block;
+}
+ .first p:hover,
+.second p:hover,
+.third p:hover,
+.first2 p:hover,
+.second2 p:hover,
+.third2 p:hover,
+.first3 p:hover,
+.second3 p:hover,
+.third3 p:hover {
+    height: 130px;
+
+}
+
+ .price{
+    float: right; 
+    color: red;
+    font-size: 25px;
+ }
+ .second, .third{
+    margin-top: 50px;
+    background-image: url(images/Сало\ з\ часником.jpg);
+
+ }
+ .second p{
+    width: 280px;
+ }
+
+ .third{
+    background-image: url(images/завантаження\ \(2\).jpeg);
+ }
+ 
+ .second3{
+    background-image: url(images/Лосось.jpeg);
+    margin-left: 975px;
+    top: 89px;
+ }
+
+ .h-l{
+   width: 105%;
+   top: 200px;
+   color: red;
+   margin-left: -30px;
+ }
+ 
+ .container5{
+    width: 1176px;
+    height: 750px;
+    margin-top:  250px;
+    margin-left: 100px;
+ }
+
+
+.des-txt{
+    margin-top: 70px;
+    margin-left: 280px;
+    font-size: 40px;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.nap-txt{
+    margin-top: -650px;
+    margin-left: 765px;
+    font-size: 40px;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.des-1, .des-2, .des-3
+{
+    top: 40px;
+margin-left: 210px;
+    border-left: 50px;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    background-image: url("images/Струдель.jpeg");
+}
+
+.des-1 p:hover, .des-2 p:hover , .des-3 p:hover, .nap-1 p:hover, .nap-2 p:hover, .nap-3 p:hover, .dish-of-the-day p:hover {
+    height: 130px;
+
+}
+
+.des-1 p:hover small, .des-2 p:hover small, .des-3 p:hover small, .nap-1 p:hover small, .nap-2 p:hover small, .nap-3 p:hover small, .dish-of-the-day p:hover small {
+    display: block;
+}
+
+.des-1 p small, .des-2 p small, .des-3 p small, .nap-1 p small, .nap-2 p small, .nap-3 p small, .dish-of-the-day p small{
+    display: none;
+}
+
+
+
+.des-1 p , .des-2 p, .des-3 p, .nap-1 p, .nap-2 p, .nap-3 p {
+    width: 280px;
+  color: rgba(255, 255, 255,1);
+  background: black;
+   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, (0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  font-size: 25px;
+ line-height: 28px;
+ text-align: justify;
+ position: absolute;
+ bottom: 0;
+ margin: 0;
+ height: 25px;
+ transition: height .5s;
+ -webkit-transition: height .5s;
+ -moz-transition: height .5s;
+ }
+ .des-2{
+    background-image: url(images/сирники.jpeg);
+    top: 80px;
+ }
+
+.des-3 {
+    background-image: url(images/млинці.jpeg);
+    top:120px;
+}
+
+
+
+.nap-2{
+    background-image: url(images/завантаження\ \(4\).jpeg);
+    top: 74px;  
+    margin-left: 680px;
+    border-left: 50px;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    
+}
+.nap-3{
+    background-image: url(images/завантаження\ \(5\).jpeg);
+    
+    
+    top: 114px;  
+    margin-left: 680px;
+    border-left: 50px;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+}
+
+.nap-1
+{
+    top: 34px;
+margin-left: 680px;
+    border-left: 50px;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    background-image: url(images/Кола.jpeg);
+}
+.nap{
+    height: 800px;
+}
+
+.dish-of-the-day{
+    width: 1000px;
+    background-image: url(images/Борщ.webp);
+    margin-top: 100px;
+    margin-left: 200px;
+    border-left: 50px;
+    height: 500px;
+    width: 1000px;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+}
+
+.dish-of-the-day p {
+    width: 980px;
+  color: rgba(255, 255, 255,1);
+  background: black;
+   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, (0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  font-size: 35px;
+ line-height: 28px;
+ text-align: justify;
+ position: absolute;
+ bottom: 0;
+ margin: 0;
+ height: 25px;
+ transition: height .5s;
+ -webkit-transition: height .5s;
+ -moz-transition: height .5s;
+ }
+ .hr  {
+    margin-top: 160px;
+    width: 100%;
+   
+    
+    border: 0px solid red;
+    border-top-width: 2px;
+ }
+ .dish-day{
+    background-color: #37373f;
+ }
+
+ .dis-txt{
+    font-family: 'Londrina Shadow', cursive; 
+    font-size: 60px;
+    text-align: center;
+    color: white;
+ }
+
+ .dish-of-the-day small{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #5c5a5a;
+ }
+ .borcsh{
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-bottom: -10px;
+    text-align: center;
+    padding: 10px;
+ }
+
+ .dish-of-the-day p:hover small {
+    display: block;
+ }
+
+ footer{
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: #524343;
+    border-top: 7px solid silver;
+
+
+ }
+
+.social{
+    float:right;
+    width: 50%;
+ }
+
+  .copyright{
+    float: left;
+    text-align: left;
+    font-size: 1.1em;
+    width: 50%;
+    color: wheat;
+ }
+.visa{
+    float: left;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -650px;
+ }
+ .master-card{
+    float:left;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -590px;
+ }
+ .visa, .master-card{
+ display: inline-block;
+ }
+
+ 
+
+ 
+ .tg{
+    width: 10%;
+    border-radius:150px;
+    border: 3px solid salmon;
+    float: right;
+    margin-left: 10px;
+ }
+ .tg:hover{
+    width: 11%;
+ }
+ 
+ .vs{
+    width: 10%;
+    border-radius:150px;
+    border: 3px solid salmon;
+    float: right;
+    margin-left: 10px;
+ }
+
+ 
+ .vs:hover{
+    width: 11%;
+ }
+ 
+ .designer p{
+    font-family: 'Londrina Shadow', cursive;
+    margin-left: 125px;
+    color: orange;
+ }
+ 
+
+ .con img{
+    height: 500px;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+}
+
+.const h1{
+    background-color: #37373f;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Londrina Shadow', cursive;
+}
+.const p{
+    text-align: center;
+    background-color: #37373f; 
+    color: wheat;
+    font-size: 30px;
+}
+.const{
+    background-color: #37373f;
+    margin-bottom: -15px;
+    font-family: 'Londrina Shadow', cursive;
+}
+.click{
+    text-align: center;
+    background-color: #37373f;
+    margin-top: -10px;
+}

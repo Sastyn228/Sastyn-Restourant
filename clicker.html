@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+  <title>Sastyn Restourant</title>
+  <meta charset="UTF-8">
+    
+ 
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scaler=1.0 ">
+    </head>
+    <header>
+        <nav class= "navbar">  
+            <div class="container">
+              <img src="images/Новий проект.png">     
+    
+               <div class="navbar-wrap">
+                 <ul class="navbar-menu">       
+                  <li><a href="index.html" class="hol">Головна</a></li>
+    
+                  <li><a href="menu.html" class="me">Меню</a></li>
+                  
+                  <li><a href="clicker.html" class="cl">Клікер</a></li>
+    
+                  
+                 </ul> 
+                
+                
+                 
+               </div>
+            </div>                                   
+          </nav>
+
+        
+      </header>
+      <div class="con">
+        <img src="images/6325303.png">
+      </div>
+         <div class="const">
+
+         <h1>Вітаю вас на нашій сторінці клікера</h1>
+         <p>Тут ви зможете пограти у круту гру під назвою "Клікер"</p>
+         <br><br>
+         </div>
+
+
+
+
+
+
+
+<div class="click">
+         
+<script type="text/javascript">
+var clickCount = 0; 
+var mycanvas, ctx;
+document.addEventListener('DOMContentLoaded',function(){
+  mycanvas = document.getElementById("mycanvas"); 
+  ctx = mycanvas.getContext("2d"); 
+});
+function clickHandler(){ 
+    clickCount++; 
+    increment();  
+}
+
+function increment(){
+    ctx.clearRect(0,0,mycanvas.width,mycanvas.height);
+    ctx.font = 'bold 30px sans-sherf'; 
+    ctx.fillText("Ваші кліки:   " + clickCount,20,50); 
+    ctx.fillText("Натискайте");
+}
+</script>
+  <canvas width="300" height="200" id="mycanvas" onclick="clickHandler()" style="border:1px solid #000"></canvas>
+ 
+
+</div>
+
+     <footer>
+        <div class="soocial"></div>
+        <div class="copyright">Copyright © 1941—2023 Sastyn Restourant</div>
+        <div class="visa"><img src="images/visa-logo.png" ></div>
+        <div class="master-card"><img src="images/mastercard-logo.png" ></div>
+       
+      
+          <div class="social">
+          <a href="https://t.me/arsenesans" ><img class="tg" src="images/3787425_telegram_logo_messanger_social_social media_icon.png"></a>
+          <a href="https://joyreactor.cc/tag/%D0%BA%D0%BE%D1%82%D1%8D"><img class="vs" src="images/174879.png"></a>
+          </div>
+          <div class="designer">
+            <p>Дизайнер: Арсен Щирба</p>
+          </div>
+        
+      </footer>
+</html>

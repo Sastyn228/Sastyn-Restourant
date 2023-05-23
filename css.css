@@ -1,0 +1,86 @@
+.p hr{
+    width: 50%; margin: 0 25% 0 25%;
+    border-color: red;
+    margin-top: 8px;
+}
+.container2 img{
+    margin-top: 30px;
+}
+
+.history h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: #37373f;
+    color: wheat;
+    opacity: 0.6;
+}
+
+.history{
+    background-color: #37373f;
+   margin-top: 18px;
+}
+
+.novyny{
+    background-color: #37373f;
+   
+}
+.novyny p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50px;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+.novyny h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: #37373f;
+    color: wheat;
+    opacity: 0.6;
+}
+.history p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50px;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+
+.pro-nas img{
+    width: 20%;
+    margin-left: 100px;
+    padding: 10px;
+    margin-bottom: -10px;
+ }
+.history img{
+    width: 40%;
+    margin-left: 750px;
+    margin-top: -50px;
+}
+.pro-nas h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: #37373f;
+    color: wheat;
+    opacity: 0.6;
+}
+.pro-nas{
+    background-color: #37373f;
+  margin-top: -50px;
+}
+.pro-nas p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50px;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+.novyny img{
+    width: 25%;
+    margin-left: 870px;
+    height: 200%;
+    margin-top: 10px;
+}
